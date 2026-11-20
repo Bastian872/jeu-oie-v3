@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jeu de l'Oie V3</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>🎲 Jeu de l'Oie V3</h1>
+
+<div class="topPanel">
+
+<div class="uploadBox">
+<input type="file"
+id="photos"
+multiple
+accept="image/*">
+
+<textarea
+id="texts"
+placeholder="1 texte par ligne"></textarea>
+
+</div>
+
+<div class="infos">
+
+<h2 id="tour">
+Tour du joueur 🔵
+</h2>
+
+<div id="dice">
+🎲
+</div>
+
+<button id="btnPlay">
+Lancer le dé
+</button>
+
+</div>
+
+</div>
+
+<div id="board"></div>
+
+<div id="popup">
+
+<div class="popupCard">
+
+<div id="popupContent"></div>
+
+<button id="closePopup">
+Fermer
+</button>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
